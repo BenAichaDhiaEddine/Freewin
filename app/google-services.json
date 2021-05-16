@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "821849459882",
+    "firebase_url": "https://freewin-44477.firebaseio.com",
+    "project_id": "freewin-44477",
+    "storage_bucket": "freewin-44477.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:821849459882:android:f14426837868500db614d3",
+        "android_client_info": {
+          "package_name": "com.example.freewin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "821849459882-n8pf4se84ht6peti7u1ipcfivp23irof.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.freewin",
+            "certificate_hash": "b91ced907cec3e76ddd77ed23f84fb95a0d5911b"
+          }
+        },
+        {
+          "client_id": "821849459882-pji7snavhhhlvlnoepasqe80gu7v4tsg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuuXmmR968fmrNhuJI48yOrczCS7sqvCk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "821849459882-pji7snavhhhlvlnoepasqe80gu7v4tsg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

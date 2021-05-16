@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    android:layout_marginBottom="15dp"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/matchRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/equipe1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="0dp"
+            android:layout_weight="1"
+            android:text="equipe1"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/matchX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="0dp"
+            android:layout_weight="1"
+            android:text="X" />
+
+        <RadioButton
+            android:id="@+id/equipe2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="0dp"
+            android:layout_weight="1"
+            android:text="equipe2"
+            android:textSize="20sp" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/parierMatch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/green_drawable"
+            android:text="Parier" />
+
+        <TextView
+            android:id="@+id/coutTextViewMatch"
+            style="@style/cout_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:gravity="right"
+            android:text="Cout: 1990 Points" />
+
+    </LinearLayout>
+
+</LinearLayout>

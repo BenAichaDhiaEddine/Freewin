@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Freewin</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="points">100000</string>
+    <string name="moneyicon">moneyIcon</string>
+    <string name="freewin">FREEWIN</string>
+    <string name="sign_out">déconnexion</string>
+    <string name="delete_account">supprimer compte</string>
+    <string name="profil_image">profil_image</string>
+    <string name="enter_your_age">entrer votre age </string>
+    <string name="sexe">Sexe :</string>
+    <string name="prenom">Prenom :</string>
+    <string name="nom">Nom :</string>
+    <string name="male">Homme</string>
+    <string name="female">Femme</string>
+    <string name="age">Age :</string>
+    <string name="governorate">Gouvernorat :</string>
+    <string name="Secteur">Secteur :</string>
+    <string name="situation_amoureuse">Situation Amoureuse :</string>
+    <string name="moyenne_de_transport">moyenne de transport :</string>
+    <string name="enter_your_name">Entrer votre nom</string>
+    <string name="enter_your_prename">Entrer votre prenom</string>
+    <string name="enrigistrer">Enrigistrer</string>
+    <string name="gagner_100_points_chaque_jour">Gagner 100 Points Chaque Jour</string>
+    <string name="tirages_au_sort">Tirages Au Sort :</string>
+    <string name="inviter_des_amis">Inviter Des Amis</string>
+    <string name="completer_votre_profil">Completer Votre Profil</string>
+    <string name="gagner_100_points_en_regardant_un_video">Regarder Un Video</string>
+    <string name="tenter_de_gagner_2000_points">Tenter de gagner 2000 Points</string>
+    <string name="recompense_de_preference">Recompense De Preference</string>
+    <string name="gagner_100_points_par_video_regard">Gagner 100 Points Par Video Regardé</string>
+    <string name="gagner_2000_points_par_amis_qui_nous_rejoint">Gagner 2000 Points Par Amis Qui Nous Rejoint</string>
+    <string name="fc_barcelona">FC Barcelona</string>
+    <string name="parier_avec_1990_points">Parier Avec 1990 Points</string>
+    <string name="_100_dinar_gagnier_chaque_jour">100 Dinar à Gagnier Chaque Jour</string>
+    <string name="_25000_dinar_gagnier_chaque_ann_e">25000 Dinar à Gagnier </string>
+    <string name="parier_sur_un_match">Parier Sur Un Match :</string>
+    <string name="_2000_dinar_gagner_chaque_mois">2000 Dinar à Gagner </string>
+    <string name="tirage_au_sort">Tirage Au Sort :</string>
+    <string name="arsenal">Arsenal</string>
+    <string name="real_madrid">Real Madrid</string>
+    <string name="liverpool_f_c">Liverpool F C</string>
+    <string name="parier_avec_1990_points1">Parier avec 1990 Points</string>
+    <string name="completer_votre_profil_et_gagnier_2000_points">Completer Votre Profil Et Gagnier 2000 Points</string>
+    <string name="secteur_d_activit">secteur d\'activité :</string>
+    <string name="modifier_profil">Modifier Profil</string>
+    <string name="quzswj">QUZSWJ</string>
+    <string name="name">Name</string>
+    <string name="partager_votre_code_pour_gagner_2000_points_quand_un_amie_s_insrit">partager votre code pour gagner 2000 points quand un amie s\'insrit</string>
+    <string name="entrer_le_code_de_votre_amie_pour_gagner_500_points">entrer le code de votre amie pour gagner 500 points</string>
+    <string name="todo">TODO</string>
+    <string name="votre_amie_gagne_aussi_500_points">votre amie gagne aussi 500 points</string>
+    <string name="partager">Partager</string>
+    <string name="_550_dinar_gagner_chaque_mois_pour_le_meuilleur_partageur">550 dinar à gagner chaque mois pour le meuilleur partageur</string>
+    <string name="checked">checked</string>
+    <string name="entrer_le_code_ici">entrer le code ici ...</string>
+    <string name="valider">Valider</string>
+    <string name="description">description</string>
+    <string name="contribuer">Contribuer</string>
+    <string name="faites_un_don">Faire un don</string>
+    <string name="_7000_points_1_dinar"><![CDATA[7000 points => 1 Dinar]]></string>
+
+    <string name="title_activity_video">Video</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="default_notification_channel_id">15</string>
+    <string name="msg_token_fmt">msgTokenFMT</string>
+</resources>

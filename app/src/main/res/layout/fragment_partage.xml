@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Partage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        tools:context=".Partage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/yellow_drawable"
+            android:orientation="vertical"
+            android:padding="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/code_parainage"
+                style="@style/text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/open_sans_bold"
+                android:text="@string/quzswj"
+                android:textColor="#F4511E"
+                android:textSize="50sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/todo"
+                    android:src="@drawable/ic_checked" />
+
+                <TextView
+                    android:id="@+id/textView30"
+                    style="@style/textstylepartage"
+                    android:fontFamily="@font/open_sans_bold"
+                    android:text="@string/partager_votre_code_pour_gagner_2000_points_quand_un_amie_s_insrit" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/Video_imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/checked"
+                    android:src="@drawable/ic_checked" />
+
+                <TextView
+                    android:id="@+id/textView31"
+                    style="@style/textstylepartage"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/open_sans_bold"
+                    android:text="@string/votre_amie_gagne_aussi_500_points"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/checked"
+                    android:src="@drawable/ic_checked" />
+
+                <TextView
+                    android:id="@+id/textView32"
+                    style="@style/textstylepartage"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/open_sans_bold"
+                    android:text="@string/_550_dinar_gagner_chaque_mois_pour_le_meuilleur_partageur"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/partage_partager"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/green_drawable"
+            android:text="@string/partager"
+            android:textColor="@android:color/white" />
+
+        <LinearLayout
+            android:id="@+id/validerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/yellow_drawable"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            tools:context=".Partage">
+
+
+            <EditText
+                android:id="@+id/InputCodeParainage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/entrer_le_code_de_votre_amie_pour_gagner_500_points"
+                android:inputType="textPersonName"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/checked"
+                    android:src="@drawable/ic_checked" />
+
+                <TextView
+                    android:id="@+id/textView33"
+                    style="@style/textstylepartage"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/open_sans_bold"
+                    android:text="@string/entrer_le_code_de_votre_amie_pour_gagner_500_points" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/partage_valider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/green_drawable"
+            android:text="@string/valider"
+            android:textColor="@android:color/white" />
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Points">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/PointsTextrecompenseDePreference"
+            style="@style/text_style"
+            android:layout_gravity="left"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/recompense_de_preference"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.167"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/gagner_100_points_chaque_jour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/green_drawable"
+            android:padding="10dp"
+            android:text="@string/gagner_100_points_chaque_jour"
+            android:textColor="@android:color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/PointsTextrecompenseDePreference" />
+
+        <TextView
+            android:id="@+id/timer_100_points"
+            style="@style/text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="0"
+            android:textColor="@color/colorPrimary"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/PointsTextGagnier100Points"
+            style="@style/text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/gagner_100_points_par_video_regard"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.375"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/gagner_100_points_chaque_jour" />
+
+        <Button
+            android:id="@+id/gagner_100_points_En_Regardant_Un_Video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/green_drawable"
+            android:padding="10dp"
+            android:text="@string/gagner_100_points_en_regardant_un_video"
+            android:textColor="@android:color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/PointsTextGagnier100Points" />
+
+        <TextView
+            android:id="@+id/PointsTextTenterDeGagnier2000Points"
+            style="@style/text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/tenter_de_gagner_2000_points"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Completer_botre_profil" />
+
+        <Button
+            android:id="@+id/Tenter_de_gagner_2000_Points"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/green_drawable"
+            android:padding="10dp"
+            android:text="@string/tenter_de_gagner_2000_points"
+            android:textColor="@android:color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/PointsTextTenterDeGagnier2000Points" />
+
+        <TextView
+            android:id="@+id/timer_2000_points"
+            style="@style/text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="@color/colorPrimary"
+            android:visibility="gone"
+            tools:layout_marginStart="20dp" />
+
+        <TextView
+            android:id="@+id/PointsTextCompleterVotreProfil"
+            style="@style/text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/completer_votre_profil_et_gagnier_2000_points"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/inviter_des_amis" />
+
+        <Button
+            android:id="@+id/Completer_botre_profil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/green_drawable"
+            android:padding="10dp"
+            android:text="@string/completer_votre_profil"
+            android:textColor="@android:color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/PointsTextCompleterVotreProfil" />
+
+        <TextView
+            android:id="@+id/PointstextGagner2000Points"
+            style="@style/text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/gagner_2000_points_par_amis_qui_nous_rejoint"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/gagner_100_points_En_Regardant_Un_Video" />
+
+        <Button
+            android:id="@+id/inviter_des_amis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/green_drawable"
+            android:padding="10dp"
+            android:text="@string/inviter_des_amis"
+            android:textColor="@android:color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/PointstextGagner2000Points" />
+
+    </LinearLayout>
+</ScrollView>
